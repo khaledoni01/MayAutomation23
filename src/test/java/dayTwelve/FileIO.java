@@ -29,6 +29,7 @@ public class FileIO {
 
         } catch (Exception e) {
             System.out.println("couldn't read the file");
+            System.out.println("file location may have been changed");
         }
 
 
