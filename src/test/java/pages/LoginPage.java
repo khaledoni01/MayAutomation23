@@ -3,8 +3,10 @@ package pages;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.Assert;
 import tests.BaseTest;
+import util.UtilityMethods;
 
 public class LoginPage {
 
@@ -22,10 +24,13 @@ public class LoginPage {
     }
 
     public void login(String uname, String pword) {
+        BaseTest.wait.until(ExpectedConditions.visibilityOf(username));
         username.clear();
         username.sendKeys(uname);
         password.sendKeys(pword);
         loginButton.click();
+
+//        UtilityMethods.jsClick(loginButton);
 
         Assert.assertEquals(BaseTest.driver.getCurrentUrl(), BaseTest.baseURL, "URL mismatch");
     }
