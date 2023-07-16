@@ -13,8 +13,8 @@ public class BaseTest {
 
     public static WebDriverWait wait = null;
 
-    public static String baseURL = "https://nktechsolutions.com/membership-login/";
-
+//    public static String baseURL = "https://nktechsolutions.com/membership-login/";
+    public static String baseURL = "file:///C:/Users/khale/OneDrive/Desktop/Misc/NK%20TECH%20Solutions/Automation/WebPage/2ndPage.html";
 
     @BeforeMethod
     public void launchBrowser() {

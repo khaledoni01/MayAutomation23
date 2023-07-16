@@ -27,9 +27,11 @@ public class LoginPage {
         BaseTest.wait.until(ExpectedConditions.visibilityOf(username));
         username.clear();
         username.sendKeys(uname);
-        password.sendKeys(pword);
-        loginButton.click();
 
+//        password.sendKeys(pword);
+        UtilityMethods.sendKeys(password, pword);
+
+        loginButton.click();
 //        UtilityMethods.jsClick(loginButton);
 
         Assert.assertEquals(BaseTest.driver.getCurrentUrl(), BaseTest.baseURL, "URL mismatch");
