@@ -34,7 +34,7 @@ public class LoginPage {
         loginButton.click();
 //        UtilityMethods.jsClick(loginButton);
 
-        Assert.assertEquals(BaseTest.driver.getCurrentUrl(), BaseTest.baseURL, "URL mismatch");
+        Assert.assertEquals(BaseTest.driver.getCurrentUrl(), BaseTest.url, "URL mismatch");
     }
 
 }

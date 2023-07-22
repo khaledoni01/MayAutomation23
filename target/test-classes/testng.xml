@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="suite">
+
+    <groups>
+        <run>
+            <include name="Smoke" />
+        </run>
+    </groups>
+
+    <parameter name="baseURL" value="https://nktechsolutions.com/membership-login/" />
+
+    <test name="Test">
+        <classes>
+            <class name="tests.SecondPageTest"/>
+            <class name="tests.FirstPageTest"/>
+            <class name="tests.HomeTest"/>
+            <class name="tests.LoginTest"/>
+        </classes>
+    </test>
+
+</suite>

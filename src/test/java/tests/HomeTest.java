@@ -9,7 +9,7 @@ public class HomeTest extends BaseTest{
 
     String homePageURL = "https://nktechsolutions.com/";
 
-    @Test
+    @Test(groups = {"Regression"})
     public void validateMenuOption(){
         HomePage homePage = new HomePage();
         getDriver().get(homePageURL);

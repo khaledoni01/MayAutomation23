@@ -6,7 +6,7 @@ import pages.LoginPage;
 
 public class FirstPageTest extends BaseTest{
 
-    @Test
+    @Test(groups = {"Regression"})
     public void verifyJanuaryMonthDropdown(){
         FirstPage firstPage = new FirstPage();
         firstPage.selectMonth("Mar");
