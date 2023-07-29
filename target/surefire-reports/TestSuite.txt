@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 12.915 s <<< FAILURE! - in TestSuite
+loginInvalidUsernameInvalidPassword(tests.LoginTest)  Time elapsed: 2.025 s  <<< FAILURE!
+java.lang.AssertionError: 
+The following asserts failed:
+	url mismatched expected [https://google.com] but found [https://nktechsolutions.com/membership-login/]
+	at tests.LoginTest.loginInvalidUsernameInvalidPassword(LoginTest.java:35)
+

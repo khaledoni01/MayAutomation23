@@ -1,0 +1,10 @@
+tests\HomeTest.class
+pages\FirstPage.class
+tests\FirstPageTest.class
+pages\LoginPage.class
+pages\SecondPage.class
+pages\HomePage.class
+tests\BaseTest.class
+util\UtilityMethods.class
+tests\LoginTest.class
+tests\SecondPageTest.class
