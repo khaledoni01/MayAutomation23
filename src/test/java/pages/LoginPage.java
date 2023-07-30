@@ -5,7 +5,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.Assert;
-import tests.BaseTest;
+import testngTests.BaseTest;
 import util.UtilityMethods;
 
 public class LoginPage {

@@ -2,7 +2,7 @@ package util;
 
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
-import tests.BaseTest;
+import testngTests.BaseTest;
 
 public class UtilityMethods {
 

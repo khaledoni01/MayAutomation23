@@ -1,8 +1,6 @@
-package tests;
+package testngTests;
 
 import org.testng.annotations.Test;
-import pages.FirstPage;
-import pages.LoginPage;
 import pages.SecondPage;
 
 public class SecondPageTest extends BaseTest{
